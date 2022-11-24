@@ -3,12 +3,6 @@ import logo from '../../assets/logo.png'
 import { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
-const MenuContent = () => {
-  <>
-
-  </>
-}
-
 export function Navbar() {
   const [menu, setMenu] = useState(false)
 

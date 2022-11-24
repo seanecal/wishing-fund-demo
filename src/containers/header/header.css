@@ -1,0 +1,260 @@
+.wf__header {
+  display: flex;
+  z-index: 1;
+}
+
+.section__padding {
+  padding: 4rem 6rem 0 6rem;
+}
+
+.wf__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.wf__header-content h1{
+  font-weight: 800;
+  font-size: 62px;
+}
+
+.wf__header-content p{
+  font-weight: normal ;
+  font-size: 20px;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  line-height: 27px;
+  margin-top: 1rem;
+}
+
+.wf__header-content__input {
+  width:100%;
+  margin: 2rem 0 4rem;
+  display: flex;
+}
+
+.wf__header-content__input input {
+  flex: 1;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 1rem;
+  background: var(--color-footer);
+  border-radius: 16px 0px 0px 16px;
+  border: 2px solid var(--color-footer);
+  font-family: var(--font-family);
+  font-size:20px;
+  line-height: 27px;
+  color: var(--color-text);
+  outline: none;
+}
+
+.wf__header-content__input button {
+  flex: 0.6;
+  background: var(--color-button);
+  color: #fff;
+  font-weight: normal;
+  padding: 0.5rem 1rem;
+  border-radius: 0px 16px 16px 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  min-height: 50px;
+}
+
+.wf__header-content__image {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wf__header-content__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.wf__wave-section {
+  position: relative;
+  width:100%;
+  height: 2vh;
+  bottom: 35px;
+  /* overflow: hidden; */
+}
+
+.wf__wave {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  background: url(../../assets/wave.png);
+  background-size: 1900px 100px;
+}
+
+.wave1 {
+  animation: animate 30s linear infinite;
+  z-index: 20;
+  opacity: 0.55;
+  animation-delay: 0s;
+  bottom: -10px;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1900px;
+  }
+}
+
+.wave2 {
+  animation: animate2 20s linear infinite;
+  z-index: 19;
+  opacity: 0.4;
+  animation-delay: -5s;
+  bottom: -20px;
+}
+
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1900px;
+  }
+}
+
+.wave3 {
+  animation: animate3 15s linear infinite;
+  z-index: 18;
+  opacity: 0.8;
+  animation-delay: -10s;
+  bottom: -35px;
+}
+
+@keyframes animate3 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1900px;
+  }
+}
+
+.wave4 {
+  animation: animate4 50s linear infinite;
+  z-index: 18;
+  opacity: 0.9;
+  animation-delay: -2s;
+  bottom: -35px;
+}
+
+@keyframes animate4 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1900px;
+  }
+}
+
+/* .wf__bg-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.wf__bg-bubbles{
+  position: relative;
+  display: flex;
+} */
+
+/* .wf__bg-bubbles span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: var(--color-subtext);
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--color-subtext),0 0 50px var(--color-subtext),0 0 100px var(--color-subtext);
+  animation: rising 5s linear infinite;
+  /* animation-duration: calc(120s / var(--i)); */
+/* }
+
+@keyframes rising {
+  0% {
+    transform: translateY(75vh) scale(0);
+  }
+
+  100% {
+    transform: translateY(-20vh) scale(1);
+  }
+
+} */
+
+
+@media screen and (max-width: 1258px){
+  .wf__header{
+    flex-direction: column;
+  }
+  .wf__header-content {
+    margin: 0 0 3rem;
+  }
+  .wf__header-content__image img {
+    height: 50%;
+    width: 50%;
+  }
+  .section__padding {
+    padding: 2rem 6rem;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  .wf__header-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .wf__header-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .wf__header-content__input button,
+  .wf__header-content__input input {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .section__padding {
+    padding: 2rem 4rem 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .wf__header {
+    padding: 0rem 2rem;
+  }
+
+  .wf__header-content h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .wf__header-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .wf__header-content__input button,
+  .wf__header-content__input input {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .wf__header-content__image {
+    display: none;
+  }
+
+}
