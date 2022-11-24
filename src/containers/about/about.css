@@ -1,0 +1,65 @@
+.wf__about {
+  display: flex;
+  flex-direction: column;
+  border-radius: 32px 32px 0 32px;
+  padding: 2rem;
+   /* ff 3.6+ */
+   background:-moz-radial-gradient(circle at 7% 68%, rgba(4, 8, 66, 1) 0%, rgba(8, 13, 130, 1) 100%);
+
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-radial-gradient(circle at 7% 68%, rgba(4, 8, 66, 1) 0%, rgba(8, 13, 130, 1) 100%);
+
+   /* opera 11.10+ */
+   background:-o-radial-gradient(circle at 7% 68%, rgba(4, 8, 66, 1) 0%, rgba(8, 13, 130, 1) 100%);
+
+   /* ie 10+ */
+   background:-ms-radial-gradient(circle at 7% 68%, rgba(4, 8, 66, 1) 0%, rgba(8, 13, 130, 1) 100%);
+
+   /* global 92%+ browsers support */
+   background:radial-gradient(circle at 7% 68%, rgba(4, 8, 66, 1) 0%, rgba(8, 13, 130, 1) 100%);
+}
+
+.wf__about-feature {
+  display: flex;
+}
+
+.wf__about-feature, .wf__features-container_feature {
+  margin: 0;
+}
+
+
+.wf__about-feature, .wf__features-container_text {
+  max-width: 700px;
+}
+
+.wf__about-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 2rem;
+}
+
+.wf__about-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  max-width: 510px;
+}
+
+.wf__about-heading p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  max-width: 510px;
+  cursor: pointer;
+  color: var(--color-subtext);
+  font-family: var(--font-family);
+}
+
+.wf__about-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2rem;
+}

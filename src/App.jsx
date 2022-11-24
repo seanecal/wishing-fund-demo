@@ -10,7 +10,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Brand />
+      {/* <Brand /> */}
       <About />
       <Features />
       <Possibility />
