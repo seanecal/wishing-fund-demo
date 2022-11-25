@@ -2,6 +2,8 @@ import './features.css'
 
 export function Features() {
   return(
-    <div>Features</div>
+    <div className="section__margin" id="projects">
+      hii
+    </div>
   )
 }

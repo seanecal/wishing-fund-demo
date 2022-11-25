@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar, Cta, Brand } from './components'
-import { Blog, Features, Footer, Header, Possibility, About } from './containers'
+import { Blog, Features, Footer, Header, Outlook, About } from './containers'
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       </div>
       {/* <Brand /> */}
       <About />
-      <Possibility />
+      <Outlook />
       <Features />
       <Cta />
       {/* <Blog /> */}
