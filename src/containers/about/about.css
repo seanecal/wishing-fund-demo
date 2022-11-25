@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 650px){
   .wf__about {
-    padding: 1rem;
+    padding:1rem;
   }
   .wf__about-feature .wf__features-container__feature {
     flex-direction: column;

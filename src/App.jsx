@@ -12,10 +12,10 @@ function App() {
       </div>
       {/* <Brand /> */}
       <About />
-      <Features />
       <Possibility />
+      <Features />
       <Cta />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </div>
   )
