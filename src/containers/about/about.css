@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 32px 32px 0 32px;
-  padding: 2rem;
+  padding: 4rem;
    /* ff 3.6+ */
    background:-moz-radial-gradient(circle at 7% 68%, rgba(4, 8, 66, 1) 0%, rgba(8, 13, 130, 1) 100%);
 
@@ -19,32 +19,18 @@
    background:radial-gradient(circle at 7% 68%, rgba(4, 8, 66, 1) 0%, rgba(8, 13, 130, 1) 100%);
 }
 
-.wf__about-feature {
-  display: flex;
-}
-
-.wf__about-feature, .wf__features-container_feature {
-  margin: 0;
-}
-
-
-.wf__about-feature, .wf__features-container_text {
-  max-width: 700px;
-}
-
 .wf__about-heading {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 4rem 0 2rem;
+  margin: 0rem 0 2rem;
 }
 
 .wf__about-heading h1 {
-  font-size: 34px;
-  line-height: 45px;
+  font-size: 48px;
+  line-height: 64px;
   font-weight: 800;
-  max-width: 510px;
 }
 
 .wf__about-heading p {
@@ -57,9 +43,60 @@
   font-family: var(--font-family);
 }
 
-.wf__about-container{
+.wf__about-container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 2rem;
+}
+
+.wf__about-container .wf__features-container__feature {
+  flex:1;
+  margin: 1rem;
+  min-width: 210px;
+  flex-direction: column;
+  display: unset;
+}
+
+.wf__about-container .wf__features-container__feature-text {
+  margin-top: 0.5rem;
+}
+
+
+@media screen and (max-width: 850px) {
+  .wf__about-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+  .wf__about-heading p{
+    margin-top: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width: 650px){
+  .wf__about {
+    padding: 1rem;
+  }
+  .wf__about-feature .wf__features-container__feature {
+    flex-direction: column;
+  }
+
+  .wf__about-feature .wf__features-container__feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .wf__about-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .wf__about-container .wf__features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
 }
