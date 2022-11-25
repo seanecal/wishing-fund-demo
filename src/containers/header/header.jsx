@@ -4,21 +4,7 @@ import hero from '../../assets/hero.png'
 export function Header() {
   return(
     <>
-    {/* <div className="wf__bg-container">
-      <div className="wf__bg-bubbles">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div> */}
+
     <div className="wf__header section__padding" id="home">
         <div className="wf__header-content">
         <h1 className="gradient__text">
@@ -42,6 +28,21 @@ export function Header() {
         </div>
     </div>
     <div className="wf__wave-section">
+        <div className="wf__bg-container">
+          <div className="wf__bg-bubbles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
         <div className="wf__wave wave1"></div>
         <div className="wf__wave wave2"></div>
         <div className="wf__wave wave3"></div>
