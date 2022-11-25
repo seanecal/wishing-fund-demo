@@ -24,7 +24,9 @@ export function Footer() {
           <h4>It starts here</h4>
           <p>Tel Aviv, Israel</p>
           <p>Project initialized by Sen Cao</p>
-          <p>caosen.cn@gmail.com</p>
+          <a href="mailto:caosen.cn@gmail.com">
+            <p>caosen.cn@gmail.com</p>
+          </a>
         </div>
       </div>
       <div className="wf__footer-copyright">
