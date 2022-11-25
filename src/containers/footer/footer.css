@@ -63,3 +63,16 @@
   color: var(--color-subtext);
   line-height: 15px;
 }
+
+@media screen and (max-width: 1590px) {
+  .wf__footer-links div {
+    margin: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .wf__footer-links div {
+    margin: 1rem;
+  }
+}
