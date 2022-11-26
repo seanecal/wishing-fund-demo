@@ -18,7 +18,7 @@ export function Footer() {
         <div className="wf__footer-links_div">
           <h4>Regulations</h4>
           <p>Terms & Conditions</p>
-          <p>Pravacy Policy</p>
+          <p>Privacy Policy</p>
         </div>
         <div className="wf__footer-links_div">
           <h4>It starts here</h4>
