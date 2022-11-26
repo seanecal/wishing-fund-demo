@@ -62,4 +62,28 @@
   .wf__possibility {
     flex-direction: column;
   }
+  .wf__possibility-content{
+    text-align: center;
+  }
+  .wf__possibility-content {
+    margin: auto;
+  }
+}
+
+
+@media screen and (max-width:550px) {
+  .wf__possibility-content h2{
+    line-height: 48px;
+    font-size: 24px;
+  }
+
+.wf__possibility-content h3 {
+  line-height:1.6;
+  font-size: 16px;
+ }
+ .wf__possibility-content p{
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 1rem;;
+ }
 }

@@ -25,6 +25,7 @@
   justify-content: center;
   align-items: center;
   margin: 0rem 0 2rem;
+  text-align: center;
 }
 
 .wf__about-heading h1 {
@@ -61,6 +62,12 @@
 
 .wf__about-container .wf__features-container__feature-text {
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .wf__about-heading {
+    text-align: center;
+  }
 }
 
 

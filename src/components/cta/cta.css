@@ -65,10 +65,17 @@
   }
 }
 
+@media screen and (max-width:820px) {
+  .wf__cta-content{
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .wf__cta {
     margin: 4rem 2rem;
   }
+
   .wf__cta-content h3 {
     font-size: 40px;
   }
