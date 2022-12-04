@@ -15,7 +15,7 @@ export function Header() {
           Participate, Decide, Vote, Change the World
         </h3>
         <p>
-          WishFund will be dedicating itself to build a democratic fund platform where the fund participants will get to vote on ALL matters in their funds.
+          WishFund will be dedicating itself to building a democratic fund platform where the fund participants will get to vote on ALL matters in their funds.
           Whether the fund will be a profitable investment or solely for public benefits, it is your decision.
         </p>
         <div className="wf__header-content__input">
