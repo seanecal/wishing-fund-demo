@@ -1,7 +1,7 @@
 import './App.css'
 import { Navbar, Cta } from './components'
 import { Footer, Header, Outlook, About } from './containers'
-import { Features } from '../src/containers/features/Features'
+// import { Features } from '../src/containers/features/Features'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       </div>
       <About />
       <Outlook />
-      <Features />
+      {/* <Features /> */}
       <Cta />
       <Footer />
     </div>
