@@ -4,7 +4,7 @@ export function Features() {
   return(
     <div className="wf__features section__margin" id="projects">
       <div className="wf__features-heading">
-         <h1 className="gradient__text">≈
+         <h1 className="gradient__text">
           How could WishFund change the world?
          </h1>
       </div>
