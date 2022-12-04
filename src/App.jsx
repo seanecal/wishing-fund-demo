@@ -1,6 +1,7 @@
 import './App.css'
 import { Navbar, Cta } from './components'
-import { Features, Footer, Header, Outlook, About } from './containers'
+import { Footer, Header, Outlook, About } from './containers'
+import { Features } from '../src/containers/features/Features'
 
 function App() {
 
