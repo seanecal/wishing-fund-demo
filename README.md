@@ -4,4 +4,5 @@
 ## WishFund is a web3.0 exploration concept initialzed by me. 
 
 This is a demo explainatory website for showcasing the outlook of the project.
-https://www.wishfund.info/#home
+https://www.wishfund.info/
+The site is built with React.js
